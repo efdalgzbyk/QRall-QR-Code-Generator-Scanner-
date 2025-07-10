@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QRall - QR Kod Oluştur ve Tara</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode"></script>
+</head>
+<body>
+  <div class="container">
+
+    <div class="main-area">
+      <h1>QR Kod Oluşturucu</h1>
+      <input type="text" id="qr-input" placeholder="Metin veya URL girin" />
+      <button onclick="generateQR()">QR Kodu Oluştur</button>
+      <button onclick="copyLastText()" id="copy-btn" style="display:none; margin-left:10px;">Metni Kopyala</button>
+      <div id="qr-result"></div>
+      <a id="download-btn" href="#" download="qr.png" style="display: none;">QR Kodunu İndir</a>
+
+      <hr />
+
+      <h2>QR Kod Oku (Kamera ile)</h2>
+      <button id="start-scan">Taramayı Başlat</button>
+      <button id="stop-scan" style="display:none;">Taramayı Durdur</button>
+      <div id="reader" style="width: 300px; height: 300px; margin: auto;"></div>
+      <p id="scan-result"></p>
+    </div>
+
+    <div class="history-area">
+      <h3>Oluşturulan QR Kodlar</h3>
+      <ul id="history-list"></ul>
+      <button onclick="clearHistory()">Geçmişi Temizle</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

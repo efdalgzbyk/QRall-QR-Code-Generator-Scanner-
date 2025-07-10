@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 900px;
+  height: 600px;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-area {
+  flex: 2;
+  padding-right: 20px;
+  overflow-y: auto;
+}
+
+.history-area {
+  flex: 1;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+  overflow-y: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0078e7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+#qr-result {
+  margin-top: 20px;
+}
+
+#qr-result canvas {
+  margin: 10px auto;
+  display: block;
+}
+
+#download-btn {
+  display: block;
+  margin-top: 10px;
+  color: #0078e7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+hr {
+  margin: 30px 0;
+  border: 1px solid #ddd;
+}
+
+#reader {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+#scan-result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#history-list {
+  list-style: none;
+  padding: 0;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+#history-list li {
+  padding: 6px 4px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  cursor: default;
+}
