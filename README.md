@@ -1,0 +1,1 @@
+# QRall-QR-Code-Generator-Scanner-
