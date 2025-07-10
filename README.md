@@ -49,12 +49,6 @@ Proje şu adreste yayında: [https://qrall.ct.ws/?i=1](https://qrall.ct.ws/?i=1)
 
 ---
 
-## Kaynak Kod ve Katkılar
-
-Kaynak kodlar GitHub üzerinde paylaşılacaktır. Katkılarınız, önerileriniz ve hata bildirimleriniz için çekinmeden iletişime geçebilirsiniz.
-
----
-
 ## İletişim
 
 Proje hakkında soru veya önerileriniz için:
