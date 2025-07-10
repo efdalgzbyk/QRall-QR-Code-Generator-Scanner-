@@ -53,7 +53,7 @@ Proje şu adreste yayında: [https://qrall.ct.ws/?i=1](https://qrall.ct.ws/?i=1)
 
 Proje hakkında soru veya önerileriniz için:
 
-- **E-posta:** efdalgozubuyuk@example.com  
+- **E-posta:** efdalgozubuyuk@gmail.com  
 - **GitHub:** [github.com/efdalgozubuyuk](https://github.com/efdalgozubuyuk)
 
 ---
